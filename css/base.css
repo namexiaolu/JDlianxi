@@ -1,13 +1,15 @@
 /* 定义使用 iconfont 的样式 */
 @font-face {
     font-family: 'iconfont';
-    src: url('iconfont.eot');
-    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
-        url('iconfont.woff2') format('woff2'),
-        url('iconfont.woff') format('woff'),
-        url('iconfont.ttf') format('truetype'),
-        url('iconfont.svg#iconfont') format('svg');
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
   }
+
+ 
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 16px;
@@ -39,9 +41,11 @@
     background: url(../images/header.jpg) no-repeat;
     position: relative;
 } 
-.J_event i {
+.J_event a i {
+    width: 20px;
+    height: 20px;
     position: absolute;
-    top: 8px;
+    top: 2px;
     right: 0;
 }
 /* 京东头部结束 */
