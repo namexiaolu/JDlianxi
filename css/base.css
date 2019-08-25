@@ -63,7 +63,7 @@ ul {
     background-color: #e3e4e5;
     border-bottom: 1px solid #dddddd;
 
-    /* line-height: 30px; */
+    line-height: 30px;
 }
 .shortcut li{
     font-size: 12px;
@@ -72,8 +72,27 @@ ul {
 .shortcut a {
     color: #9d9d9d;
     font-size: 12px;
+    text-decoration: none;
+}
+.shortcut a:hover {
+    color: #c81623;
 }
 .shortcut .fr li {
     float: left;
+}
+.shortcut .fr i {
+    color: red;
+}
+.shortcut .fl li {
+    margin-left: 200px;
+}
+.shortcut .spacer {
+    height: 10px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 10px 10px 0;
+}
+.shortcut .dropdown {
+    padding-right: 15px;
 }
 /* 快捷导航栏结束 */
