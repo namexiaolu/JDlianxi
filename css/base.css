@@ -108,4 +108,16 @@ ul {
     top: 0;
     
 }
+.shoujiJD {
+    position: relative;
+}
+.qrcode {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    position: absolute;
+    
+   
+}
 /* 快捷导航栏结束 */
