@@ -30,6 +30,10 @@
     float: left;
 }
 
+.maincolor {
+    color: #f10215!important;
+}
+
 li {
     list-style: none
 }
@@ -94,5 +98,14 @@ ul {
 }
 .shortcut .dropdown {
     padding-right: 15px;
+    position: relative;
+}
+.shortcut .dropdown .iconfont {
+    font-size: 10px;
+    color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
 }
 /* 快捷导航栏结束 */
