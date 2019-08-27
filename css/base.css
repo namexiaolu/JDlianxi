@@ -28,6 +28,7 @@
 
 .fl {
     float: left;
+    height: 30px;
 }
 
 .maincolor {
@@ -121,3 +122,24 @@ ul {
    
 }
 /* 快捷导航栏结束 */
+/* header开始 */
+.header {
+    height: 160px;;
+    background-color: #000;
+}
+.header h1{
+    margin: 0;
+    position: relative;
+}
+.logo {
+    display: block;
+    background-image: url(../images/logo.png) ;
+    height: 120px;
+    width: 190px;
+    position: absolute;
+    top: -30px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+/* header结束 */
