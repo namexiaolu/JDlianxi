@@ -129,7 +129,7 @@ ul {
 }
 /* 快捷导航栏结束 */
 /* header开始 */
-.header {
+.header .inner {
     height: 140px;;
     /* background-color: #000; */
     position: relative;
@@ -152,7 +152,7 @@ ul {
 
 .serch {
     height: 35px;
-    width: 550px;
+    width: 500px;
     background-color: #ccc;
     position: absolute;
     top: 25px;
@@ -160,11 +160,18 @@ ul {
 }
 .serch input {
     height: 35px;
-    width: 490px;
+    width: 450px;
     padding: 0;
     border: 0;
     float: left;
-
+}
+.serch button {
+    width: 50px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    margin: 0;
+    outline: none;
 }
 
 
