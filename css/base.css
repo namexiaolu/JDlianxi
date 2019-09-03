@@ -248,3 +248,58 @@ ul {
     margin: 15px -10px 0 20px;
 }
 /* header结束 */
+
+/* footer开始 */
+.footer {
+    height: 560px;
+    background-color:#f4f4f4;
+}
+.footer-server {
+    border-bottom: 1px solid #dedede;
+}
+.footer-server-inner{
+    height: 100px;
+
+}
+.footer-server-inner ul {
+    padding-top: 28px;
+}
+.footer-server-inner li{
+    width: 297px;
+    height: 42px;
+    line-height: 9px;
+    
+    float: left;
+    text-align: center;
+}
+.footer-server-unit{
+    position: relative;
+    
+   
+}
+
+.footer-server-unit h5{
+    margin: 0;
+    height: 42px;
+    width: 36px;
+    position: absolute;
+    top: -16px;
+    left: 38px;
+    background: url(../images/footer.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    background-position:0 -192px;
+}
+.footer-server-unit .kuai {
+    background-position:-41px -192px;
+}
+.footer-server-unit .hao {
+    background-position:-82px -192px;
+}
+.footer-server-unit .sheng {
+    background-position:-123px -192px;
+}
+.footer-server-unit p {
+    font-size: 16px;
+    font-weight: 700;
+}
