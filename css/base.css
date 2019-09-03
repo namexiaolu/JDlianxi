@@ -101,7 +101,7 @@ ul {
 .shortcut .fl li {
     margin-left: 200px;
 }
-.shortcut .spacer {
+ .spacer {
     height: 10px;
     width: 1px;
     background-color: #ccc;
@@ -242,5 +242,9 @@ ul {
 .navitems a:hover{
     color: #f10215;
 }
-
+.navitems .spacer {
+    float: left;
+    height: 20px;
+    margin: 15px -10px 0 20px;
+}
 /* header结束 */
