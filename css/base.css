@@ -39,7 +39,12 @@ body {
 .maincolor {
     color: #f10215!important;
 }
-
+a {
+    text-decoration: none;
+}
+i {
+    font-style: normal;
+}
 li {
     list-style: none
 }
@@ -130,7 +135,7 @@ ul {
 /* 快捷导航栏结束 */
 /* header开始 */
 .header .inner {
-    height: 140px;;
+    height: 140px;
     /* background-color: #000; */
     position: relative;
 }
@@ -181,6 +186,61 @@ ul {
     outline: none;
     cursor: pointer;
 }
+.cart {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    width: 188px;
+    height: 33px;
+    background-color: #fff;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 33px;
+    font-size: 12px;
+}
+.cart span {
+    display: block;
+    padding-top: 12px;
+}
+.hotwords {
+    font-size: 12px;
+    position: absolute;
+    top: 70px;
+    left: 320px;
 
+}
+.cart i {
+    position: relative;
+    padding: 1px 5px;
+    height: 12px;
+    min-width: 12px;;
+    top: -7px;
+    border-radius: 7px;
+    background-color: red;
+}
+.navitems{
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitems ul {
+    float: left;
+    /* margin-left: 20px; */
+}
+.navitems ul li {
+    float: left;
+    margin-left: 30px;
+}
+.navitems a{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    color: #555a5f;
+    font-weight: 700;
+
+}
+.navitems a:hover{
+    color: #f10215;
+}
 
 /* header结束 */

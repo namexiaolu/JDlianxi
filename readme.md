@@ -16,5 +16,18 @@ favicon.ico是网站的小图标，css中存放css，目前只写了base.css,包
 
 ## 导航栏
 
+## 购物车
+右上角的小红色圆圈，用定位。
 
+## 导航栏信息（navitems)
+用三个ul分成三份，每个ul的margin-left 30；
+ul>li*4>a
+left 200
+bottom 0
+height 40
+line-height 40
+font-weight:700; 字体加粗的意思。
+- 复制文字小技巧
+    复制三个 然后 按住alt 选三个位置，粘贴，那么这三个复制的文字就会依次粘贴到这三个位置，很棒。
+- 量字体高度的方法，可以先量明显一侧的高度，然后把这一侧的高度复制到另一侧，再量整个的高度，在css中直接写height和ling-height就行了。
 
