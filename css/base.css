@@ -41,6 +41,7 @@ body,* {
 }
 a {
     text-decoration: none;
+    color: #000;
 }
 i {
     font-style: normal;
@@ -305,8 +306,25 @@ ul {
 }
 .footer-help {
     height: 180px;
+   
 }
 .footer-help dl {
     float: left;
     width: 198px;
+}
+.footer-help dt {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.footer-help dd {
+    font-size: 12px;
+}
+
+.footer-copyright {
+    overflow: hidden;
+}
+.footer-copyright li {
+    float: left;
+    margin-right: 2px;
 }
