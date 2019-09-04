@@ -8,7 +8,16 @@
         url('../fonts/iconfont.ttf') format('truetype'),
         url('../fonts/iconfont.svg#iconfont') format('svg');
   }
-
+  .clearfix:before,.clearfix:after { 
+    content:"";
+    display: table;  /* 这句话可以出发BFC BFC可以清除浮动 */
+  }
+  .clearfix:after {
+   clear:both;
+  }
+  .clearfix {
+    *zoom:1;
+  }
  
 .iconfont {
     font-family: "iconfont" !important;
@@ -17,10 +26,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-body,* {
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
        background-color: #e3e4e5;
-       padding: 0;
-       margin: 0;
+
   }
 /* 版心 */
 .w {
@@ -253,7 +265,7 @@ ul {
 /* footer开始 */
 .footer {
     height: 560px;
-    background-color:#f4f4f4;
+    background-color:#f4f4f4 !important;
 }
 .footer-server {
     border-bottom: 1px solid #dedede;

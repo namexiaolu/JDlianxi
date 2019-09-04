@@ -69,3 +69,5 @@ h42
 
 用dl>dt>dd
 
+* 中间出了小插曲，不小心写*{margin和padding 0}的时候 把颜色也加上了，导致footer-help的颜色跟背景色不一样。
+
