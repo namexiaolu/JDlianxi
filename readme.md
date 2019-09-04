@@ -1,7 +1,8 @@
 # 京东网站模仿
 
-本项目是模仿jd网站，思路是先写好html+css，力求做到完全一致。
-在线查看 https://namexiaolu.github.io/JDlianxi/
+* 本项目是模仿jd网站，思路是先写好html+css，力求做到完全一致。
+* 在线查看 https://namexiaolu.github.io/JDlianxi/
+* 或者 http://lhomg.coding.me/jingdonglianxi/
 
 ## 设计框架
 
