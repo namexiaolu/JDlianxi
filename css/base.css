@@ -347,9 +347,18 @@ ul {
     float: right;
 }
 .footer-copyright {
+   border-top: 1px solid #ccc;
+   padding-top: 5px;
    
 }
-.footer-copyright li {
-    float: left;
-    margin-right: 2px;
+.footer-copyright-links {
+    font-size: 12px;
+    text-align: center;
+}
+.footer-copyright-links a {
+    color: #666;
+}
+.footer-copyright-links span {
+    color: #ccc;
+    margin: 0 5px;
 }
