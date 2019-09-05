@@ -287,8 +287,7 @@ ul {
 }
 .footer-server-unit{
     position: relative;
-    
-   
+    top: 20px;
 }
 
 .footer-server-unit h5{
@@ -348,7 +347,7 @@ ul {
     float: right;
 }
 .footer-copyright {
-    /* overflow: hidden; */
+   
 }
 .footer-copyright li {
     float: left;
