@@ -322,7 +322,7 @@ ul {
 }
 .footer-help dl {
     float: left;
-    width: 198px;
+    width: 195px;
 }
 .footer-help dt {
     font-size: 14px;
@@ -331,10 +331,24 @@ ul {
 }
 .footer-help dd {
     font-size: 12px;
+    line-height: 22px;
 }
-
+.footer-help .cover {
+    background: url(../images/footer-help-cover.png) no-repeat;
+    height: 150px;
+    width: 200px;
+}
+.footer-help .info {
+    width: 180px;
+    margin-top: 10px;
+    line-height: 18px;
+    margin-left: -25px;
+}
+.footer-help .more {
+    float: right;
+}
 .footer-copyright {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .footer-copyright li {
     float: left;
