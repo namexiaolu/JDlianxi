@@ -82,3 +82,7 @@ h150
     w175
     h50
     font-size 12px
+## footer-copyright 
+文字排版简直麻烦的要命，
+
+精灵图也要每次都量距离，想知道为啥不用iconfont解决图标问题，非要用精灵图，神奇。
