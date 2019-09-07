@@ -317,7 +317,7 @@ ul {
 }
 .footer-help {
     height: 180px;
-   
+    margin-top: 18px;
 }
 .footer-help dl {
     float: left;

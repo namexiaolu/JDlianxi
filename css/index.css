@@ -1,0 +1,19 @@
+.jd {
+    height: 480px;
+    background-color: pink;
+    position: relative;
+}
+.jd-min {
+    background-color: purple;
+    height: 480px;
+    position: relative;
+    z-index: 999;
+}
+.jd .ad {
+    height: 480px;
+    background: url(../images/bg.png) no-repeat;
+    position:absolute;
+    top: 0;
+    left: 0;
+
+}
