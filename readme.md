@@ -6,7 +6,7 @@
 * 在线查看 https://namexiaolu.github.io/JDlianxi/
 * 或者 http://lhomg.coding.me/jingdonglianxi/
 
-## 设计框架
+### 设计框架
 
 先总体规划好要用几个文件，目录怎么排。以下是我的目录 ↓
 
@@ -104,5 +104,15 @@ h150
     
     ### 中间内容开始
     
-    ![1567850810350](F:\jingDong\mdimg\1567850810350.png)
+    ![1567850810350](.\mdimg\1567850810350.png)
 
+* 此时，广告的内个大盒子会不是居中对齐，需要加上 top center
+
+  ```   background: url(../images/bg.png) no-repeat top center; ```
+
+### clo1
+
+观察，发现整个一个条就是一个li
+
+* 当你的大盒子有高，写paddingtop要减大盒子的高
+*  

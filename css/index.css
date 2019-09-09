@@ -10,10 +10,41 @@
     z-index: 999;
 }
 .jd .ad {
+    display: block;
     height: 480px;
-    background: url(../images/bg.png) no-repeat;
+    width: 100%;
+    background: url(../images/bg.png) no-repeat top center;
     position:absolute;
     top: 0;
     left: 0;
 
+}
+.jd-min .clo1 {
+    width: 190px;
+    height: 480px;
+    /* background-color: aqua; */
+    float: left;
+    color: white;
+}
+.jd-min .clo2 {
+    width: 790px;
+    height: 480px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 10px;
+}
+.jd-min .clo3 {
+    width: 190px;
+    height: 480px;
+    /* background-color: blue; */
+    float: right;
+}
+.clo1 ul {
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}
+.clo1 li {
+    
 }
