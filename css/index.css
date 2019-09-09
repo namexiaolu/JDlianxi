@@ -26,6 +26,14 @@
     float: left;
     color: white;
 }
+.clo1 a {
+    color: white;
+    font-size: 14px;
+}
+.jd-min .clo1 span {
+    font-size: 12px;
+    
+}
 .jd-min .clo2 {
     width: 790px;
     height: 480px;
@@ -45,6 +53,42 @@
     color: white;
     font-size: 14px;
 }
-.clo1 li {
+.clo2-top {
+    height: 340px;
+    background-color: red;
+    position: relative;
+}
+.arrow {}
+
+.slider {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+
+}
+.slider li{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 8px;
+}
+.clo2-bottom {
+    height: 140px;
+    background-color: blue;
+}
+.clo2-bottom-left {
+    width: 380px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+   
+}
+.clo2-bottom-right {
+    width: 380px;
+    height: 100%;
+    background-color: #fff;
+    float: right;
     
 }
