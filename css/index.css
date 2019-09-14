@@ -116,7 +116,7 @@
 .clo3 {
     width: 190px;
     height: 480px;
-    background-color: blue;
+    background-color:#fff;
     font-size: 16px;
 }
 
@@ -134,17 +134,72 @@
     width: 40px;
     height: 40px;
     position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
     left: 0;
     top: 0;
 }
 .clo3-user a img {
     height: 100%;
     width: 40px;
+    
+}
+.user-profit {
+    margin-top: 10px;
 }
 .user-profit a {
     font-size: 12px;
     color: #f10215;
-    border: #f10215 2px solid;
+    border: #f10215 1.5px solid;
     width: 70px;
     height: 20px;
+    padding: 3px 5px;
+}
+.user-profit a:nth-child(2) {
+    margin-left: 20px;
+}
+.clo3 {
+    font-size: 12px;
+}
+.clo3-news {
+    height: 154px;
+    
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    color: #999;
+}
+.clo3-news a {
+    color: #999;
+}
+.clo3-news a:hover {
+    color: #f10215;
+}
+.clo3-news .news-t {
+    width: 164px;
+    height: 20px;
+    margin: 2px auto 0;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.clo3-news .more {
+    float: right;
+}
+.clo3-news .new-b {
+    height: 107px;
+    width: 164px;
+    margin: 0 auto;
+}
+.new-b ul {
+    line-height: 23px;
+    padding-top: 15px;
+}
+.clo3-server {
+    width: 190px;
+    height: 209px;
+    background-color: #f10215;
+}
+.clo3-server ul li {
+    height: 61.6px;
+    width: 47px;
+    float: left;
 }
