@@ -39,15 +39,16 @@
 .jd-min .clo2 {
     width: 790px;
     height: 340px;
-    /* background-color: red; */
+    
     float: left;
     
 }
 .jd-min .clo3 {
     width: 190px;
-    height: 340px;
-    /* background-color: blue; */
     float: right;
+    height: 480px;
+    background-color:#fff;
+    font-size: 12px;
 }
 .clo1 ul {
     margin-top: 15px;
@@ -59,7 +60,7 @@
     margin: 0 10px;
     height: 340px;
     width: 790px;
-    background-color: red;
+    
     position: relative;
     background: url(../images/banner.jpg) no-repeat;
 }
@@ -113,19 +114,19 @@
     float: right;
     margin-right: -10px;
 }
-.clo3 {
-    width: 190px;
-    height: 480px;
-    background-color:#fff;
-    font-size: 16px;
-}
 
 .clo3-user {
-    margin: 20px 0 0 20px;
+    /* padding-top: 20px; */
+    height: 115px;
+  
 }
 .user-info {
+
+    width: 106px;
+    margin: 0 auto;
     height: 40px;
     padding-left: 54px;
+    padding-top: 20px;
     position: relative;
     font-size: 12px;
     line-height: 22px;
@@ -137,7 +138,7 @@
     border-radius: 50%;
     overflow: hidden;
     left: 0;
-    top: 0;
+    top: 20px;
 }
 .clo3-user a img {
     height: 100%;
@@ -145,7 +146,10 @@
     
 }
 .user-profit {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    width: 160px;
+    margin: 20px auto 0;
+    
 }
 .user-profit a {
     font-size: 12px;
@@ -163,9 +167,7 @@
 }
 .clo3-news {
     height: 154px;
-    
     border-top: 1px solid #ccc;
-    margin-top: 10px;
     color: #999;
 }
 .clo3-news a {
@@ -196,10 +198,28 @@
 .clo3-server {
     width: 190px;
     height: 209px;
-    background-color: #f10215;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    
+}
+.clo3 ul {
+    width: 192px;
 }
 .clo3-server ul li {
-    height: 61.6px;
+    height: 69px;
     width: 47px;
     float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.clo3-server i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+    margin: 15px auto 8px;
+}
+.clo3-server a {
+    text-align: center;
+    display: block;
 }
